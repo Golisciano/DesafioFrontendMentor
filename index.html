@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Nueva pagina principal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/default.css">
+  <link rel="stylesheet" href="src/text_styles.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/media.css">
+
+</head>
+<body class="position-relative">
+
+  <div class="mainContainer">
+    
+    <nav class="d-flex justify-content-between align-items-center">
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="">
+      </div>
+
+      <div class="d-md-none">
+        <img src="assets/images/icon-menu.svg" alt="" class="icon_menu">
+      </div>
+
+      <div class="menu">
+        <div class="icon_close_div d-flex d-md-none justify-content-end">
+          <img src="assets/images/icon-menu-close.svg" class="icon_close">
+        </div>
+        <ul class="menu_ul d-flex flex-column gap-4 d-md-none">
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Inicio</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Nuevo</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Popular</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Trending</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Categorias</a></li>
+        </ul>
+      </div>
+      
+
+      <div class="menu768 d-none d-md-block">
+        <ul class="menu768_ul d-flex gap-4">
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Inicio</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Nuevo</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Popular</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Trending</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Categorias</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+
+      <div class="gridContainer">
+
+        <div class="web30 d-flex flex-column gap-4 mb-64">
+
+          <div class="web30_img">
+            <img src="assets/images/image-web-3-mobile.jpg" class="img-cover d-xxl-none">
+            <img src="assets/images/image-web-3-desktop.jpg" class="img-cover d-none d-xxl-block">
+          </div>
+          <div class="web30_content d-flex flex-column flex-xxl-row justify-content-xxl-between align-items-xxl-center gap-3">
+            <h2 class="m-0 heading headingL dark_space_blue bright fs-56" style="font-weight: 800;">¿El brillante futuro de la Web 3.0?</h2>
+            <div class="d-flex flex-column readmore_container gap-4">
+              <p class="m-0 body gunmetal">
+                Nos sumergimos en la próxima evolución de la web que pretende devolver el poder de las plataformas a las manos de las personas. Pero, ¿realmente está cumpliendo su promesa?
+              </p>
+              <!-- button div -->
+              <div>
+                <button class="readmore text-uppercase">Leer mas</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- new -->
+        <div class="new mb-64 d-flex flex-column justify-content-center">
+          <h1 class="heading headingM yellow new_caption">Nuevo</h1>
+          <div class="d-flex flex-column new_content">
+            <div class="new_contentbox">
+              <h5 class="mb-2 heading headingS almost-white">Hidrogeno vs Autos Electricos </h5>
+              <p class="m-0 body silver">
+                ¿Los automóviles impulsados ​​por hidrógeno alguna vez alcanzarán a los vehículos eléctricos?
+              </p>
+            </div>
+            <div class="new_line"></div>
+            <div class="new_contentbox">
+              <h5 class="mb-2 heading headingS almost-white">Las desventajas del arte de la IA</h5>
+              <p class="m-0 body silver">
+                ¿Cuáles son los posibles efectos adversos de la generación de imágenes de IA bajo demanda?
+              </p>
+            </div>
+            <div class="new_line"></div>
+            <div class="new_contentbox">
+              <h5 class="mb-2 heading headingS almost-white">¿Se está agotando la financiación de capital de riesgo?</h5>
+              <p class="m-0 body silver">
+                La financiación privada de las empresas de capital de riesgo ha bajado un 50 % interanual. Echamos un vistazo a lo que eso significa.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="blogs_part1 mb-32">
+          <div class="blogbox d-flex gap-4 align-items-center mb-32">
+            <div class="imageDiv">
+              <img src="assets/images/image-retro-pcs.jpg" class="blog_img">
+            </div>
+            <div class="blogbox_content">
+              <div class="heading headingM silver mb-2">01</div>
+              <div class="heading headingXS dark_space_blue mb-2 vermillion-hover pointer" style="font-weight: 800;">Reviviendo PCs antiguas</div>
+              <p class="m-0 body gunmetal">
+                ¿Que pasa cuando antiguas PCs obtienen actualizaciones modernas?
+              </p>
+            </div>
+          </div> 
+          <div class="blogbox d-flex gap-4 align-items-center">
+            <div class="imageDiv">
+              <img src="assets/images/image-top-laptops.jpg" class="blog_img">
+            </div>
+            <div class="blogbox_content">
+              <div class="heading headingM silver mb-2">02</div>
+              <div class="heading headingXS dark_space_blue mb-2 vermillion-hover pointer" style="font-weight: 800;">Top 10 Laptops del 2023</div>
+              <p class="m-0 body gunmetal">    
+                Nuestras mejores elecciones para diversos presupuestos y necesidades.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="blogs_part2 d-xl-flex align-items-center">
+          <div class="blogbox d-flex gap-4 align-items-center">
+            <div class="imageDiv">
+              <img src="assets/images/image-gaming-growth.jpg" class="blog_img">
+            </div>
+            <div class="blogbox_content">
+              <div class="heading headingM silver mb-2">03</div>
+              <div class="heading headingXS dark_space_blue mb-2 vermillion-hover pointer" style="font-weight: 800;">El crecimiento de los videojuegos</div>
+              <p class="m-0 body gunmetal">
+                Cómo la pandemia ha generado nuevas oportunidades.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="src/scripts/main.js"></script>
+
+  
+
+</body>
+</html>
